@@ -2,11 +2,14 @@ import MenuItemCss from "./MenuItem.module.css";
 
 import classNames from "classnames";
 
-export default function MenuItem() {
+type Props = {
+  title: string;
+};
+
+export default function MenuItem({ title }: Props) {
   return (
     <div className={classNames(MenuItemCss.MenuItem)}>
-      {/* <p>Menu Item</p> */}
-      <h3>Menu Item</h3>
+      <h3>{title}</h3>
     </div>
   );
 }

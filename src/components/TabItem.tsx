@@ -2,11 +2,15 @@ import TabItemCss from "./TabItem.module.css";
 
 import classNames from "classnames";
 
-export default function TabItem() {
+type Props = {
+  title: string;
+};
+
+export default function TabItem({ title }: Props) {
   return (
-    <div className={classNames(TabItemCss.TabItem)}>
+    <div className={classNames(TabItemCss.TabItem, "border")}>
       {/* <p>Tab Item</p> */}
-      <h3>Tab Item</h3>
+      <h3>{title}</h3>
     </div>
   );
 }

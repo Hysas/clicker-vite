@@ -2,7 +2,11 @@ import WorkerItemCss from "./WorkerItem.module.css";
 
 import classNames from "classnames";
 
-export default function WorkerItem() {
+type Props = {
+  name: string;
+};
+
+export default function WorkerItem({ name }: Props) {
   return (
     <div className={classNames(WorkerItemCss.WorkerItem, WorkerItemCss.grid)}>
       <div
@@ -11,7 +15,7 @@ export default function WorkerItem() {
           WorkerItemCss.WorkerName
         )}
       >
-        <h3>Worker Name</h3>
+        <h3>{name}</h3>
       </div>
       <div
         className={classNames(
