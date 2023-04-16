@@ -1,4 +1,4 @@
-import "./Workers.css";
+import "./Workers.scoped.css";
 
 import classNames from "classnames";
 

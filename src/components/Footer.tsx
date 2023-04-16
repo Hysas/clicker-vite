@@ -1,4 +1,4 @@
-import "./Footer.css";
+import "./Footer.scoped.css";
 
 import classNames from "classnames";
 

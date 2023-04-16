@@ -1,4 +1,4 @@
-import "./Score.css";
+import "./Score.scoped.css";
 
 import classNames from "classnames";
 

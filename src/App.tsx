@@ -1,4 +1,4 @@
-import "./App.css";
+import "./App.scoped.css";
 
 import classNames from "classnames";
 

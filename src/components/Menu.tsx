@@ -1,4 +1,4 @@
-import "./Menu.css";
+import "./Menu.scoped.css";
 
 import classNames from "classnames";
 
