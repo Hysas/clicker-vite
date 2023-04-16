@@ -1,6 +1,25 @@
-.Score {
+/* .Score {
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: red;
+} */
+
+.Score {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  color: white;
+}
+
+.Score p {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.Score span {
+  font-size: 20px;
+  margin-top: 2px;
 }

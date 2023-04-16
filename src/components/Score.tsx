@@ -5,7 +5,8 @@ import classNames from "classnames";
 export default function Score() {
   return (
     <div className={classNames("Score")}>
-      <p>Score</p>
+      <p>Points</p>
+      <span>0</span>
     </div>
   );
 }
