@@ -1,4 +1,4 @@
-import "./App.scoped.css";
+import AppCss from "./App.module.css";
 
 import classNames from "classnames";
 
@@ -10,7 +10,7 @@ import Footer from "./components/Footer";
 
 export default function App() {
   return (
-    <div className={classNames("App", "grid")}>
+    <div className={classNames(AppCss.App, AppCss.grid)}>
       <Score />
       <Tabs />
       <Workers />

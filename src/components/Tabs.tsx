@@ -1,15 +1,15 @@
-import "./Tabs.scoped.css";
+import TabsCss from "./Tabs.module.css";
 
-import Tab from "./Tab";
+import TabItem from "./TabItem";
 
 import classNames from "classnames";
 
 export default function Tabs() {
   return (
-    <div className={classNames("Tabs", "grid")}>
-      <Tab />
-      <Tab />
-      <Tab />
+    <div className={classNames(TabsCss.Tabs, TabsCss.grid)}>
+      <TabItem />
+      <TabItem />
+      <TabItem />
     </div>
   );
 }

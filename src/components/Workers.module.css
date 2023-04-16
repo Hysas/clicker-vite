@@ -1,0 +1,13 @@
+.Workers {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* overflow: auto; */
+}
+
+.grid {
+  display: grid;
+  grid-template-rows: repeat(8, 1fr);
+  grid-template-columns: 1fr;
+  gap: 5px;
+}
